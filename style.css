@@ -1,0 +1,151 @@
+/* tags methods  */
+body{
+    /* background-color: #a7aaaa; */
+    padding: 2%;
+    font-family: roboto;
+}
+
+.wrapper{
+    background-color: #e6ebeb;
+    box-shadow: 12px 10px 4px #1b1a1a;
+    border-radius: 15px;
+    padding: 2%;
+    height: 500px;
+    
+nav{
+    /* display: flex; */
+    /* justify-content: space-evenly; */ */
+    border-bottom: 5px solid #fff;
+    margin-bottom: 1%; 
+    margin-top: 100px;
+    /* padding: 0; */
+}
+
+/* nav ul{
+    display: flex;
+} */
+
+nav ul li{
+    padding: 7px;
+    list-style: none;
+    color: black;
+    margin-top: -50px;
+    ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-shadow: #f00 3px;
+    color: black;
+}
+
+.container{
+    padding: 1%;
+    margin-bottom: 2%;
+}
+.left-col, .right-col{
+    width: 48%;
+    min-height: auto;
+    margin: 0 1%;
+    background-color: black;
+}
+.left-col{
+    float: left;
+    max-height: 400px;
+    border-radius: 10px 0 0 10px;
+    margin-top: 11%;
+}
+
+.right-col{
+    float: left;
+    background-color: #fff;
+}
+
+.row{
+    width: 98%;
+    min-height: 200px;
+    background-color: #a7aaaa;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+
+/* img{
+    width: inherit;
+    height: 350px;
+    border-radius: 10px 0 0 10px;
+} */
+
+.right-col form{
+    margin: 2%;
+    border-radius: 0 10px 10px 0;
+}
+
+label{
+    font-size: 20px;
+    color: #000;
+}
+section{
+    margin-bottom: 3%;
+}
+
+.row h3, table{
+    margin: 2%;
+    margin-top: 3%;
+}
+
+.row table{
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+.row table tr td, th{
+    border: 1px solid #000;
+}
+
+h3{
+    margin-top: 2%;
+    text-align: center;
+}
+
+figure{
+    border: solid #a7aaaa 1px;
+}
+
+.form-table{
+    margin-top: -20px;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+.center button{
+    margin-top: 2%;
+    color: white;
+    font-size: large;
+    background-color: rgb(43, 44, 44);
+    border-radius: 15%;
+}
+.btn :hover{
+    background-color: rgb(211, 117, 117) !important;
+    color: #f00 !important;
+}
+
+nav ul li :hover{
+    background-color: rgb(26, 24, 24);
+    color: rgb(252, 251, 251);
+    border-radius: 15%;
+    padding: 3px;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+}
